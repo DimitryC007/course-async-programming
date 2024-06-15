@@ -12,7 +12,8 @@ app.use(bodyParser.json());
 
 // Connect to MongoDB
 const mongoUri = process.env.MONGODB_URI;
-mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true });
+console.log('mongoUri',mongoUri);
+mongoose.connect(mongoUri);
 
 const userSchema = new mongoose.Schema({
     id: String,
