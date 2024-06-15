@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/CaloriesManager', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://dmitry:dmitry123456@freecluster.axnjoor.mongodb.net/CaloriesManager', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const userSchema = new mongoose.Schema({
     id: String,
