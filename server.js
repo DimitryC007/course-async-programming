@@ -1,3 +1,8 @@
+/*
+    Full Name: Dmitry Chernyak, ID: 307694745
+    Full Name: Ron Gorlik, ID: 206517344
+*/
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
